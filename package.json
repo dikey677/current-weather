@@ -1,0 +1,36 @@
+{
+  "name": "parcel-project-template",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://github.com/Korobass87/Weather-GOIT",
+  "scripts": {
+    "dev": "parcel src/*.html --open",
+    "build": "parcel build src/*.html --public-url /Weather-GOIT/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Korobass87/Weather-GOIT.git"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "chart": "^0.1.2",
+    "chart.js": "^3.7.1",
+    "moment-timezone": "^0.5.34",
+    "notiflix": "^3.2.4",
+    "siema": "^1.5.1"
+  }
+}
